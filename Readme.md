@@ -1,4 +1,4 @@
-# Jogo da Forca
+# Jogo da Adivinhação
 
 ![project](./project.PNG)
 
