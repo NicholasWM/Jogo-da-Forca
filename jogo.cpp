@@ -8,8 +8,8 @@ int main (){
   cout << "* Boas vindas ao Jogo da Adivinhacao! *" << std::endl;
   cout << "***************************************" << std::endl;
 
-  cout << "Escolha o seu nível de dificuldade: " << endl;
-  cout << "Fácil (F), Médio (M) ou Difícil (D)" << endl;
+  cout << "Escolha o seu nivel de dificuldade: " << endl;
+  cout << "Facil (F), Medio (M) ou Dificil (D)" << endl;
 
   char dificuldade;
   cin >> dificuldade;
@@ -49,7 +49,7 @@ int main (){
     cout << pontos << endl;
     if (acertou)
     {
-      cout << "Parabens! Você acertou o numero secreto!" << endl;
+      cout << "Parabens! Voce acertou o numero secreto!" << endl;
       nao_acertou = false;
       break;
     }
@@ -64,10 +64,10 @@ int main (){
   } 
   cout << "Fim de Jogo" << endl;
   if (nao_acertou){
-    cout << "Você perdeu! Tente novamente!" << endl;
+    cout << "Voce perdeu! Tente novamente!" << endl;
   }
   else {
-    cout << "Você acertou o numero secreto em " << tentativas << " tentativas" << endl;
+    cout << "Voce acertou o numero secreto em " << tentativas << " tentativas" << endl;
     cout.precision(2);
     cout << fixed;
     cout << "Sua pontuacao foi de " << pontos << " pontos." << endl;
